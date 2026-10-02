@@ -2,6 +2,25 @@
 
 **Lab control desk that diagnoses Kali USB radios and writes a strict helper script.**
 
+## Install & run
+
+```bash
+git clone https://github.com/brazyqueso/ruby.git
+cd ruby
+npm install
+npm run dev
+```
+
+Then open **http://localhost:8080**
+
+```bash
+npm run build      # production build
+npm run typecheck
+npm run lint
+```
+
+---
+
 Tell the desk what hardware is plugged in. It runs a doctor checklist, then generates a one-shot bash helper you drop on Kali. The helper installs missing tools, stops clashing services (NetworkManager / wpa_supplicant), and refuses to continue if a required radio is missing.
 
 > Authorized lab use only — on radios and networks you own.
@@ -24,21 +43,6 @@ Tell the desk what hardware is plugged in. It runs a doctor checklist, then gene
 | **T-Embed** | Bruce flasher notes for LilyGo T-Embed CC1101 |
 | **Helper** | Preview / download the generated script |
 
-## Quick start (development)
-
-```bash
-npm install
-npm run dev
-```
-
-App listens on `http://0.0.0.0:8080`.
-
-```bash
-npm run build      # production build (Vercel-ready)
-npm run typecheck
-npm run lint
-```
-
 ## Tech
 
 - React 19 + TanStack Start / Router / Query
@@ -47,5 +51,7 @@ npm run lint
 - Vite + Nitro (Vercel preset)
 
 ## License
+
+MIT — see [LICENSE](LICENSE).
 
 Use at your own risk. Intended for authorized wireless lab work only.
