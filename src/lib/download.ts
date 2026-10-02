@@ -1,0 +1,15 @@
+export function downloadText(filename: string, contents: string) {
+  const blob = new Blob([contents], { type: "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+export async function copyText(contents: string) {
+  await navigator.clipboard.writeText(contents);
+}

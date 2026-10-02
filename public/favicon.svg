@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Signal Desk">
+  <rect width="32" height="32" rx="7" fill="#0C0C0B"/>
+  <rect x="6" y="8" width="20" height="6.5" rx="1.2" fill="#EFECE4"/>
+  <rect x="6" y="17.5" width="13" height="6.5" rx="1.2" fill="#7D8F78"/>
+</svg>

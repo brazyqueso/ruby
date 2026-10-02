@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Signal Desk",
+      "hasCanvas": false,
+      "bodyTextLen": 1924,
+      "bodyTextHash": "68a46761813e01d422de29db09e3637cb5cf79e5e002c5fff9dae0d2cb83c4b5",
+      "bodyTextPrefix": "Signal Desk V3 Desk Radio Bluetooth T-Embed Helper Authorized la",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Signal Desk",
+      "hasCanvas": false,
+      "bodyTextLen": 1818,
+      "bodyTextHash": "98193452bc440102a79b3805c759ec24b5819b375941493a71f51b073ecc667a",
+      "bodyTextPrefix": "Signal Desk LOCAL ONLY DOCTOR Tell the desk what is plugged in. ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
