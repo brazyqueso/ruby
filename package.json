@@ -1,6 +1,8 @@
 {
-  "name": "app-builder-workspace",
+  "name": "signal-desk",
+  "version": "1.0.0",
   "private": true,
+  "description": "Lab control desk that diagnoses Kali USB radios and writes a strict helper script.",
   "sideEffects": false,
   "type": "module",
   "overrides": {
